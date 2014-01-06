@@ -194,12 +194,18 @@ fieldset[disabled] #bestoverall,#transformation, #arrestable, #keepit {
   .carousel .item {
   height:330px;
   } 
+  .spacerOne{ height:27px;}
+  .spacerTwo{ height:47px;}
+  .spacerThree{ height:20px;}
 }
 
 @media (max-width: 975px) {
   .carousel .item {
   height:250px;
   } 
+  .spacerOne{ height:19px;}
+  .spacerTwo{ height:60px;}
+  .spacerThree{ height:22px;}
 }
 
 @media (max-width: 825px) {
