@@ -1,8 +1,10 @@
 # mongoengine database module
 from mongoengine import *
 from flask.ext.mongoengine.wtf import model_form
+from flask.ext.wtf import Form
+
 # from wtforms.fields import * # for our custom signup form
-from wtforms import Form, TextField, TextAreaField, HiddenField, DateTimeField, required, SelectField, IntegerField
+from wtforms import TextField, TextAreaField, HiddenField, DateTimeField, required, SelectField, IntegerField
 # /from flask_wtf import Form, TextField, TextAreaField, HiddenField, DateTimeField, required, SelectField, IntegerField
 
 from datetime import datetime
