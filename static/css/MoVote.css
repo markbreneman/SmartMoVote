@@ -1,0 +1,337 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  padding-bottom: 40px;
+  /* /* color: #4E4C4C; */ */
+}
+
+
+
+
+
+/* CUSTOMIZE THE CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 500px;
+  margin-bottom: 60px;
+  
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 380px;
+}
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  /*max-width: 1200px;*/
+  /*height: 500px;*/
+}
+
+.thickRule1, .thickRule2 {
+  border-top:3px solid #666666;
+}
+
+.featurette-intro {
+  font-family:'futura_stdmedium'; 
+  text-align: center; 
+  font-size:1.5em;
+}
+
+.featurette-heading{
+  font-family:'frontage_3d3d';
+  text-align: center;
+}
+.categoryImage{
+  width:50%;
+}
+
+.candidateRow{
+  margin-bottom:30px;
+}
+
+.candidate{
+  text-align: center;
+}
+
+.candidate h3{
+font-family: 'futura_stdmedium';
+  }
+
+.votingCategory{
+text-align:center;
+  font-family:'futura_stdmedium'; 
+}
+
+.votingCategory h2{
+  font-family: 'futura_stdmedium';
+}
+
+#bestoverall,#transformation, #arrestable, #keepit {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.428571429;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+  -webkit-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+          transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+#bestoverall,#transformation, #arrestable, #keepit:focus {
+  border-color: #66afe9;
+  outline: 0;
+  -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+          box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102, 175, 233, .6);
+}
+#bestoverall,#transformation, #arrestable, #keepit:-moz-placeholder {
+  color: #999;
+}
+#bestoverall,#transformation, #arrestable, #keepit::-moz-placeholder {
+  color: #999;
+  opacity: 1;
+}
+#bestoverall,#transformation, #arrestable, #keepit:-ms-input-placeholder {
+  color: #999;
+}
+#bestoverall,#transformation, #arrestable, #keepit::-webkit-input-placeholder {
+  color: #999;
+}
+#bestoverall,#transformation, #arrestable, #keepit[disabled],
+#bestoverall,#transformation, #arrestable, #keepit[readonly],
+fieldset[disabled] #bestoverall,#transformation, #arrestable, #keepit {
+  cursor: not-allowed;
+  background-color: #eee;
+}
+
+.voteButton{
+  float:right;
+  font-family: 'futura_stdmedium';
+  width:200px;
+  margin-bottom: 20px;
+}
+
+.candidate .on{ display: block; }
+.candidate .off{ display: none; }
+.candidate:hover .on{ display: none; }
+.candidate:hover .off{ display: block; }
+
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .col-lg-4 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .col-lg-4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* Featurettes
+------------------------- */
+
+.featurette-divider {
+  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+
+}
+
+@media (max-width: 1200px) {
+  .carousel .item {
+  height:330px;
+  } 
+}
+
+@media (max-width: 975px) {
+  .carousel .item {
+  height:250px;
+  } 
+}
+
+@media (max-width: 825px) {
+  .carousel .item {
+  height:220px;
+  } 
+}
+
+@media (max-width: 768px) {
+  .carousel .item {
+  height:220px;
+  } 
+  .thickRule1{display:none;}
+}
+
+@media (max-width: 767px) {
+  .carousel .item {
+  height:300px;
+  } 
+  .thickRule1{display:none;}
+
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: -17%;
+  min-width: 140%;
+  }
+}
+
+@media (max-width: 560px) {
+  .carousel .item {
+  height:280;
+  } 
+  .thickRule1{display:none;}
+
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: -37%;
+  min-width: 180%;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel .item {
+  height:250px;
+  } 
+  .thickRule1{display:none;}
+
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: -37%;
+  min-width: 180%;
+  }
+}
+
+@media (max-width: 400px) {
+  .carousel .item {
+  height:250px;
+  } 
+  .thickRule1{display:none;}
+
+  .carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: -62%;
+  min-width: 228%;
+  }
+}
+
+
+
+/*Fonts/
+*/
+@font-face {
+    font-family: 'frontage_3d3d';
+    src: url('../fonts/frontage-3d-webfont.eot');
+    src: url('../fonts/frontage-3d-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/frontage-3d-webfont.woff') format('woff'),
+         url('../fonts/frontage-3d-webfont.ttf') format('truetype'),
+         url('../fonts/frontage-3d-webfont.svg#frontage_3d3d') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'futura_stdmedium_condensed';
+    src: url('../fonts/futurastd-condensed-webfont.eot');
+    src: url('../fonts/futurastd-condensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurastd-condensed-webfont.woff') format('woff'),
+         url('../fonts/futurastd-condensed-webfont.ttf') format('truetype'),
+         url('../fonts/futurastd-condensed-webfont.svg#futura_stdmedium_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'futura_stdlight_condensed';
+    src: url('../fonts/futurastd-condensedlight-webfont.eot');
+    src: url('../fonts/futurastd-condensedlight-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurastd-condensedlight-webfont.woff') format('woff'),
+         url('../fonts/futurastd-condensedlight-webfont.ttf') format('truetype'),
+         url('../fonts/futurastd-condensedlight-webfont.svg#futura_stdlight_condensed') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'futura_stdmedium';
+    src: url('../fonts/futurastd-medium-webfont.eot');
+    src: url('../fonts/futurastd-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/futurastd-medium-webfont.woff') format('woff'),
+         url('../fonts/futurastd-medium-webfont.ttf') format('truetype'),
+         url('../fonts/futurastd-medium-webfont.svg#futura_stdmedium') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
