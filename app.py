@@ -42,50 +42,6 @@ for s in candidates:
 # this is our main pagex
 @app.route("/", methods=['GET','POST'])
 def index():
-
-	idea_form = models.IdeaForm(request.form)
-
-	# if form was submitted and it is valid...
-	if request.method == "POST" and idea_form.validate():
-	
-		# get form data - create new idea
-		idea = models.Idea()
-		idea.creator = request.form.get('creator','anonymous')
-		idea.title = request.form.get('title','no title')
-		idea.idea = request.form.get('idea','')
-		idea.categories = request.form.getlist('categories') # getlist will pull multiple items 'categories' into a list
-		
-		idea.save() # save it
-
-		# redirect to the new idea page
-		return redirect('/ideas/%s' % idea.slug)
-
-	else:
-
-		# for form management, checkboxes are weird (in wtforms)
-		# prepare checklist items for form
-		# you'll need to take the form checkboxes submitted
-		# and idea_form.categories list needs to be populated.
-		if request.method=="POST" and request.form.getlist('categories'):
-			for c in request.form.getlist('categories'):
-				idea_form.categories.append_entry(c)
-
-
-		# render the template
-		templateData = {
-			'ideas' : models.Idea.objects(),
-			'categories' : categories,
-			'form' : idea_form
-		}
-		
-		# app.logger.debug(templateData)
-
-		return render_template("main.html", **templateData)
-
-# this is our main page
-@app.route('/vote')
-def vote():
-
 	vote_form = Vote(request.form)
 
 	templateData = {
