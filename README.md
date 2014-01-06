@@ -1,4 +1,4 @@
 SmartMoVote
 ===========
 
-Smart Movember Vogin
+Smart Movember Voting
