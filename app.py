@@ -11,9 +11,9 @@ from flask.ext.mongoengine import MongoEngine
 
 
 app = Flask(__name__)   # create our flask app
-# app.config['CSRF_ENABLED'] = True
-# app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
-# app.config['SECRET_KEY'] = 1234567
+app.config['CSRF_ENABLED'] = True
+app.config['SECRET_KEY'] = os.environ.get('SECRET_KEY')
+
 
 
 # --------- Database Connection ---------
@@ -149,8 +149,8 @@ if __name__ == "__main__":
 	app.debug = True
 	
 	port = int(os.environ.get('PORT', 5000)) # locally PORT 5000, Heroku will assign its own port
-	app.run(host='0.0.0.0', port=port)
-	# app.run(host='127.0.0.1', port=port)
+	# app.run(host='0.0.0.0', port=port)
+	app.run(host='127.0.0.1', port=port)
 
 
 
