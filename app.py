@@ -27,19 +27,9 @@ import models
 
 from models import Vote
 
-# hardcoded categories for the checkboxes on the form
-categories = ["Garbage"]
-
-candidates =["Alex Wastney","Alistair Davies","Andrew McIntyre","Anthony Torris","Charlie Paradise","Damian Wisniewski","Dave Werzinger","Joey Zeledon","John Traub","Marie Bachoc","Nathan Brouillet","Phillip Hartley","Richard WhiteHall","Russell Blanchard","Simone Capano","Tony Mallier"]
-
-#Create Candidates
-for s in candidates:
-	candidate = models.Candidate()
-	candidate.name = s
-	candidate.save() # save it
 
 # --------- Routes ----------
-# this is our main pagex
+# this is our main page
 @app.route("/", methods=['GET','POST'])
 def index():
 	vote_form = Vote(request.form)
@@ -67,7 +57,6 @@ def voted():
 		vote.transformation = request.form.get('transformation')
 		vote.arrestable = request.form.get('arrestable')
 		vote.keepit = request.form.get('keepit')		
-		# vote.save() # save it
 
 		VoteCasted=models.VoteCasted()
 		VoteCasted.bestoverall=vote.bestoverall
@@ -75,15 +64,10 @@ def voted():
 		VoteCasted.arrestable=vote.arrestable
 		VoteCasted.keepit=vote.keepit
 		VoteCasted.save()	
-
-		# render the template
-		templateData = {
-			# 'ideas' : models.Idea.objects(),
-		}
 		
 		# app.logger.debug(templateData)
 
-		return render_template("voted.html", **templateData)
+		return render_template("voted.html")
 
 	else:
 
