@@ -8,9 +8,6 @@ body {
 }
 
 
-
-
-
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
@@ -116,14 +113,13 @@ text-align:center;
 #bestoverall,#transformation, #arrestable, #keepit[disabled],
 #bestoverall,#transformation, #arrestable, #keepit[readonly],
 fieldset[disabled] #bestoverall,#transformation, #arrestable, #keepit {
-  cursor: not-allowed;
   background-color: #eee;
 }
 
 .voteButton{
   float:right;
   font-family: 'futura_stdmedium';
-  width:200px;
+  width:213px;
   margin-bottom: 20px;
 }
 
