@@ -192,7 +192,7 @@ fieldset[disabled] #bestoverall,#transformation, #arrestable, #keepit {
 
 @media (min-width: 1201px) {
   .carousel .item {
-  height:330px;
+  height:450px;
   } 
   .spacerOne{ height:27px;}
   .spacerTwo{ height:47px;}
