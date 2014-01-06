@@ -190,6 +190,16 @@ fieldset[disabled] #bestoverall,#transformation, #arrestable, #keepit {
 
 }
 
+@media (min-width: 1201px) {
+  .carousel .item {
+  height:330px;
+  } 
+  .spacerOne{ height:27px;}
+  .spacerTwo{ height:47px;}
+  .spacerThree{ height:20px;}
+}
+
+
 @media (max-width: 1200px) {
   .carousel .item {
   height:330px;
