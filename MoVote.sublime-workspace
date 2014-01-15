@@ -1,0 +1,591 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"tex",
+				"text-align"
+			],
+			[
+				"Vot",
+				"VoteForm"
+			],
+			[
+				"form",
+				"Form"
+			],
+			[
+				"vote",
+				"vote_form"
+			],
+			[
+				"cae",
+				"categories"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"pledge",
+				"pledge_deadline"
+			],
+			[
+				"pled",
+				"pledge_amount"
+			],
+			[
+				"pl",
+				"pledge_deadline"
+			],
+			[
+				"normaliz",
+				"normalizedVector212"
+			],
+			[
+				"ea",
+				"earthRadius"
+			],
+			[
+				"space",
+				"spacedPoints"
+			],
+			[
+				"pos",
+				"positionVector1"
+			],
+			[
+				"po",
+				"positionVector2"
+			],
+			[
+				"S",
+				"Scene"
+			],
+			[
+				"posi",
+				"positionVector2"
+			],
+			[
+				"cros",
+				"crossProductVec"
+			],
+			[
+				"conr",
+				"controlPoint"
+			],
+			[
+				"control",
+				"controlPoint"
+			],
+			[
+				"sub",
+				"subtractionVector"
+			],
+			[
+				"Line",
+				"LineStrip"
+			],
+			[
+				"each",
+				"forEach"
+			],
+			[
+				"position",
+				"positionVector1"
+			],
+			[
+				"lat",
+				"latLongToVector3"
+			],
+			[
+				"point",
+				"point1"
+			],
+			[
+				"earth",
+				"earthRadius"
+			],
+			[
+				"eart",
+				"earthRadius"
+			],
+			[
+				"A",
+				"ASTRONAUT"
+			],
+			[
+				"marker",
+				"markerHead"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app.py",
+			"settings":
+			{
+				"buffer_size": 2244,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "models.py",
+			"settings":
+			{
+				"buffer_size": 5088,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/main.html",
+			"settings":
+			{
+				"buffer_size": 1966,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/vote.html",
+			"settings":
+			{
+				"buffer_size": 9547,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/css/MoVote.css",
+			"settings":
+			{
+				"buffer_size": 7504,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 267.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/markbreneman/Desktop/MoVoteApp/static/img/Portraits/Marie_Bachoc_1.JPG",
+		"/Users/markbreneman/Desktop/MoVoteApp/templates/layout.html",
+		"/Users/markbreneman/Desktop/Web/SecondNatureWebsite/templates/layout.html",
+		"/Users/markbreneman/Desktop/MoVoteApp/templates/voted.html",
+		"/Users/markbreneman/Desktop/MoVoteApp/MoVote.sublime-project",
+		"/Users/markbreneman/Desktop/MoVoteApp/static/css/MoVote.css",
+		"/Users/markbreneman/Desktop/MoVoteApp/MoVoteWireFrameing/01 Site/img/OurHeroFlippedBW16-9.jpg",
+		"/Users/markbreneman/Desktop/MoVoteApp/templates/main.html",
+		"/Users/markbreneman/Desktop/MoVoteApp/MoVoteWireFrameing/01 Site/index.html",
+		"/Users/markbreneman/Desktop/MoVoteApp/README.md",
+		"/Users/markbreneman/Desktop/MoVoteApp/MoVoteWireFrameing/01 Site/MoVote.css",
+		"/Users/markbreneman/Desktop/MoVote/MoVote.sublime-project",
+		"/Users/markbreneman/Desktop/MoVote/MoVote/index.html",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/templates/layout.html",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/templates/main.html",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/models.py",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/app.py",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/templates/test.py",
+		"/Users/markbreneman/Desktop/test.py",
+		"/Users/markbreneman/Desktop/MoVote/MoVote/.gitignore",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/README.md",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/Procfile",
+		"/Users/markbreneman/Desktop/ITP-Python-Databases-Week5-master/.env",
+		"/Users/markbreneman/Desktop/name = raw_input(\"What is your name? \").py",
+		"/Users/markbreneman/Desktop/name = raw_input(\"What is your name? \")",
+		"/Users/markbreneman/Desktop/MoVote1/MoVote1.css",
+		"/Users/markbreneman/Desktop/MoVote1/index.html",
+		"/Volumes/System/README.md",
+		"/Volumes/Rikiki Mac Partition/RESTORE/Desktop/Mo's/MoVote1/MoVote1.css",
+		"/Volumes/Rikiki Mac Partition/RESTORE/Desktop/Mo's/MoVote1/index.html",
+		"/Volumes/Rikiki Mac Partition/RESTORE/Desktop/Mo's/bootstrap-master/examples/MoVote1/index.html",
+		"/Volumes/Rikiki Mac Partition/RESTORE/Desktop/Mo's/bootstrap-master/examples/MoVote1/server.js",
+		"/Users/markbreneman/Desktop/Web/112912 KickstarterScrape/KickStarterScrape.rb",
+		"/Users/markbreneman/Desktop/Web/112912 KickstarterScrape/views/KickstarterForceGraph.erb",
+		"/Users/markbreneman/Desktop/Web/112912 KickstarterScrape/views/KickstarterForceGrapht.erb",
+		"/Users/markbreneman/Desktop/SmartInteractionLabPost.md",
+		"/Users/markbreneman/Library/Caches/Cleanup At Startup/Transmit/1AC6AB62-8D32-4FB9-B713-4628E41BDD76/WhatsUpSmartNorefresh.php",
+		"/Users/markbreneman/Desktop/Web/112912 KickstarterScrape/lib/kickstarter.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/views/main.erb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/lib/kickstarter/project.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/lib/kickstarter.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/TestData.txt",
+		"/Users/markbreneman/Desktop/KickStarterScrape2.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/lib/kickstarter/version.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/KickStarterScrape.rb",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/03 Data/112912 KickstarterScrape/erb/main.erb",
+		"/Users/markbreneman/Desktop/kickstarter-master/project",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/requirements.txt",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/README.markdown",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Understanding Networks/03 Data/Flux/README.md",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Understanding Networks/03 Data/README.md",
+		"/Users/markbreneman/Downloads/phonegap-phonegap-8a3aa47/README.md",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/templates/main.html",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/models.py",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/templates/layout/main.html",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/templates/idea_entry.html",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/app.py",
+		"/Users/markbreneman/Desktop/johnschimmel-ITP-DWD-Fall-2012-Week-5-5f753ce/MongoDB-Week6",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/_posts/2012-10-22-MakeMatics-SVM-SpiceIndex.md",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/images/2012-10-22-MakeMatics-SVM-SpiceIndex-04.jpg",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/images/2012-10-22-MakeMatics-SVM-SpiceIndex-00.jpg",
+		"/Users/markbreneman/Downloads/svm models/README",
+		"/Users/markbreneman/Documents/00 Portfolio and Resume/00 Website/2012 Website Redesign/03 Data/markbreneman.com-blog/source/_posts/2012-10-20-MakeMatics-Week3.md",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/slides/slidesref.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/slides/slides.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/sourcelocalization/app.yaml",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/MakeMatics/05 Outgoing Information/102012-Source Localization/app/main.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/styles/base.css",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/curve.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/mrdoob-three.js-ef5f05d/examples/webgl_geometry_shapes.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/media/Space02.jpg",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/twitterEarth/twitterearth.sublime-project",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/simpleline.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/mrdoob-three.js-ef5f05d/examples/webgl_ribbons.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/media/earthTexture.png",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/boilerplate/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/THREEx.screenshot.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/GUI Start",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/templates/TwitterEarth.sublime-workspace",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/twitterEarth/templates/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/01 Incoming Information/boilerplate/101512Boilerplate.sublime-project",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/index.py",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/scripts/extramodels.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/static/models/MESSENGER.dae",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS-GlobePoints/app.yaml",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101412 ThreeJS Boilerplate-mb/js/application-mb.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/static/scripts/application.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/static/scripts/three.js",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/ThreeJS.sublime-project",
+		"/Users/markbreneman/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/101112 ThreeJS-GlobePoints.tmproj",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/threejsboilerplate/index.html",
+		"/Users/markbreneman/Documents/ITP/Classes/Fall 2012/Visualizing JS/05 Outgoing Information/101112 ThreeJS-GlobePoints/threejsboilerplate/js/application.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"vote.html",
+			"MoVote.css",
+			"vote.html",
+			"test.py",
+			"untitled",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"portraits",
+			"feature",
+			"<img class=\"featurette-image img-responsive\"",
+			"<image class=\"featurette-image img-responsive\"",
+			"#bestoverall",
+			"#BestOverall",
+			".form-control",
+			"style",
+			"\"/static/img",
+			"\"/img",
+			"\"",
+			"margin-top",
+			"\"\"",
+			"antharion",
+			":handle",
+			":name",
+			"surface ",
+			"tweets",
+			"tweetIndex",
+			"line",
+			"space",
+			"skybox",
+			"scene",
+			"render",
+			"camera",
+			"controls",
+			"createSpaced",
+			"cubic",
+			"bezier",
+			"position.y",
+			"renderer",
+			"render",
+			"inline",
+			"- Hold down <i>A</i> and move your mouse around to rotate around the scene.\n                        - Hold down <i>S</i> and move your mouse up or down to zoom.\n                        - Hold down <i>D</i> and move your mouse around to pan.",
+			"print",
+			"webgl",
+			"scene",
+			"dae"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Portraits",
+			"<img class=\"featurette-image img-responsive on\"",
+			"<image class=\"featurette-image img-responsive on\"",
+			"#bestoverall,#transformation, #arrestable, #keepit",
+			"#bestoverall",
+			"#BestOverall",
+			"\"../static/img",
+			"\"/static/img",
+			"'",
+			"\"",
+			"name:",
+			"galaxyBox"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app.py",
+					"settings":
+					{
+						"buffer_size": 2244,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1462,
+								1462
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 280.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "models.py",
+					"settings":
+					{
+						"buffer_size": 5088,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4590,
+								4590
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 370.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/main.html",
+					"settings":
+					{
+						"buffer_size": 1966,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								27,
+								27
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/vote.html",
+					"settings":
+					{
+						"buffer_size": 9547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4416,
+								4416
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1703.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "static/css/MoVote.css",
+					"settings":
+					{
+						"buffer_size": 7504,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4183,
+								4183
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2726.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 51.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 256.0,
+	"status_bar_visible": true
+}
